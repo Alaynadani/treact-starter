@@ -261,9 +261,9 @@ h1 {
     width: 100%;
     border-radius: 500px;
     border: 2px solid rgb(229, 231, 235);
-    padding: 20px 32px;
+    padding: 20px 192px 20px 32px;
     color: rgb(36, 62, 99);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     position: absolute;
     top: 0;
@@ -273,7 +273,6 @@ h1 {
 }
 
 .header__email--btn {
-    width: 160px;
     z-index: 2;
     margin: 8px;
     height: calc(100% - 16px);
@@ -293,10 +292,7 @@ h1 {
     letter-spacing: 0.05em;
     font-weight: 700;
     margin-top: 48px;
-}
-.header__customers {
-    @media (max-width: 1024px);
-}
+
 
 .header__customers {
     padding-right: 0;
@@ -304,13 +300,32 @@ h1 {
     opacity: 0.5;
 }
 
-.header__img--wrapper {
-    width: 100%;
-    max-width: 512;
-    margin: 0 auto;
+@media (max-width: 1024px) {
+.header__customers--title, .header__img--wrapper {
     margin-top: 48px;
-    display: flex;
-    justify-content: flex-end;
+}
+}
+
+@media (max-width: 1024px) {
+.header__description, .header__img--wrapper {
+    width: 100%;
+    max-width: 512px;
+    margin: 0 auto;
+}
+}
+
+@media (max-width: 1280px) {
+.header__img {
+    max-width: 512px;
+       
+}
+}
+
+@media (max-width: 1280px) {
+    .header__img--wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
 /* 
