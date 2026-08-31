@@ -305,7 +305,7 @@ header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     
 }
 
@@ -555,6 +555,7 @@ section {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 #quality .row {
