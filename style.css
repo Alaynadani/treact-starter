@@ -458,11 +458,6 @@ FEATURES ↓
     position: relative;
 }
 
-.service {
-    display: flex;
-    width: calc(100% / 3);
-}
-
 
 #features .row__narrow {
     display: flex;
@@ -471,7 +466,7 @@ FEATURES ↓
 }
 
 .container {
-    padding: 96px;
+    padding: 96px 0;
 }
 
 #features .section__title, #pricing .section__title {
