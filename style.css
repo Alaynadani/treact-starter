@@ -693,12 +693,9 @@ STEPS ↓
     display: flex;
     align-items: flex-start;
     margin-top: 32px;
-    flex-direction: column;
-    width: 50%;    
 }
 
    .steps__list {
-    width: 50%;
     display: flex;
     flex-direction: column;
    } 
@@ -708,9 +705,6 @@ STEPS ↓
     font-size: 36px;
     font-weight: 600;
     line-height: 1;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
 }
 
 .step__description {
